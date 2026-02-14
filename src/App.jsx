@@ -8,6 +8,7 @@ import Sidebar from './components/Layout/Sidebar';
 
 import './App.css';
 import MainLayout from './components/Layout/MainLayout';
+import UserDetails from './components/Pages/UserDetails';
 
 function App(){
  return(
@@ -19,6 +20,7 @@ function App(){
           <Route index element={<Dashboard />} />
           <Route path="users" element={<Users />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="users/:id" element={<UserDetails />} />
           
         </Route>
    </Routes>

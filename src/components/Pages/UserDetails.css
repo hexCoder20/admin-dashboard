@@ -1,0 +1,14 @@
+.user-container{
+    padding:20px;
+}
+
+.user-data{
+    border:1px solid #ddd;
+    padding:20px;
+    border-radius:5px;
+}
+
+.btn{
+    padding:10px 20px;
+    cursor:pointer;
+}
